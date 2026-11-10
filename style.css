@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 50px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: orangered;
+}
+
+nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #444;
+}
+
+.cv-btn {
+  border: 1px solid orangered;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 55px;
+}
+
+.left h2 {
+  color: orangered;
+  font-size: 20px;
+}
+
+.left h1 {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.left h3 {
+  font-size: 20px;
+}
+
+.left .green {
+  color: green;
+}
+
+.left .blue {
+  color: blueviolet;
+}
+
+.left p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: gray;
+  font-size: 16px;
+}
+
+.about-btn {
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.socials a {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.right img {
+  width: 280px;
+  height: 280px;
+  border-radius: 140px;
+  object-fit: cover;
+  border: 5px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
